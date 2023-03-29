@@ -5,7 +5,7 @@
 >有序集合不能有重复成员且有序集合中的元素可以排序。但是和列表使用索引下标作为排序依据不同的是，它给每个元素设置一个分数（score）作为排序的依据。
 >有序集合厚葬的元素不能重复，但是score可以重复。
 
-![列表、集合和有序集合三者的异同点](Image/列表、集合和有序集合三者的异同点.png)
+![列表、集合和有序集合三者的异同点](../Image/列表、集合和有序集合三者的异同点.png)
 
 
 # 命令
@@ -131,7 +131,7 @@ user:ranking:2 weights 1 0.5 aggregate max
 zunionstore desctination numkeys key [key ...] [weight weight [weight ...]] [aggregate sum|min|max]
 ```
 
-![有序集合命令的时间复杂度](Image/有序集合命令的时间复杂度.png)
+![有序集合命令的时间复杂度](../Image/有序集合命令的时间复杂度.png)
 
 # 内部编码
 

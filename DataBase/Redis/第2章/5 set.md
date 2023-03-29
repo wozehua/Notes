@@ -108,7 +108,7 @@ sdiffstore  destination key [key...]
 三个命令（原命令+store）将集合间交集、并集、差集的结果保存在
 destination key中。
 
-![集合常用命令时间复杂度](Image/集合常用命令时间复杂度.png)
+![集合常用命令时间复杂度](../Image/集合常用命令时间复杂度.png)
 
 # 内部编码
 
